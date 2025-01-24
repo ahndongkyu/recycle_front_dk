@@ -1,16 +1,37 @@
-# my_page
+# 불쑥 (Bulssuk) - AI 기반 분리수거 앱 🌱
 
-A new Flutter project.
+**불쑥**은 분리수거를 간편하고 정확하게 도와주는 AI 기반의 환경 보호 앱입니다. 사용자는 카메라를 통해 폐기물을 촬영하면, AI가 해당 품목을 분류하고 올바른 처리 방법을 안내합니다. 또한, 분리수거 활동을 통해 나무를 키우며 환경 보호에 동참할 수 있습니다.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 주요 기능
+1. **AI 기반 분리수거**  
+   - 카메라를 통해 폐기물을 스캔하면 AI가 분류 및 처리 방법을 안내합니다.
+2. **나무 키우기 게임**  
+   - 분리수거 활동을 통해 포인트를 적립하고 나무를 성장시킬 수 있습니다.
+   - 5단계 성장: 씨앗 → 새싹 → 가지 → 나무 → 꽃.
+3. **포인트 시스템**  
+   - 분리수거 활동으로 포인트를 적립하고, 누적 기록을 조회할 수 있습니다.
+4. **개인화 프로필**  
+   - 사용자 정보 관리 및 활동 기록 확인.
+5. **약관 동의**  
+   - 서비스 이용 약관 및 개인정보 처리 방침 동의 필수.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ 기술 스택
+### **프론트엔드**
+- Flutter (Dart)
+- Android Studio (iOS 환경: iPhone 16 타겟)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### **백엔드**
+- Node.js (Express.js)
+- PostgreSQL
+- JSON Web Token (JWT) 인증
+
+### **AI 모델**
+- TensorFlow Lite (모바일 환경에서 동작)
+
+---
+
+## 📂 폴더 구조
